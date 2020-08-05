@@ -1,0 +1,14 @@
+// * --> undefined
+// i=str.length   str.length-1  str.length-1 
+// i > 0          i > 0           i >=
+// i--            i--             i--
+// 54321          4321            43210
+// *olle          olle            olleh
+//  43210         43210           43210
+
+// i=0            i=1             i=0
+// i<str.length   i<str.length    i<=str.length
+// i++            i++             i++
+// 01234           1234           012345
+// hello           ello           hello*
+// 01234          01234           012345

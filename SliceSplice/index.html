@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.9/ace.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Code Challenge</title>
+  </head>
+
+  <body onload="ready()">
+    <div id="header">
+      <button id="run_button">Run</button>
+      <button id="btn-auto">Auto: on</button>
+      <button id="btn-output">Expand Output</button>
+      <button id="btn-answer">Show Answer</button>
+      <h2 id="title">Exercise: Title goes here!</h2>
+    </div>
+
+    <div id="container">
+      <div id="editor"></div>
+      <div id="editor2"></div>
+      <div id="editor3"></div>
+
+      <textarea id="myTextarea" rows="35" cols="23" readonly>
+        Code Answer
+    </textarea
+      >
+
+      <iframe id="iframe" srcdoc="FACE"> </iframe>
+      <iframe id="iframe2" srcdoc="Click Run button"> </iframe>
+    </div>
+
+    <script src="variables.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
